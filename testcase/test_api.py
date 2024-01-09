@@ -8,22 +8,22 @@ from common.send_request import SendRequest
 
 class TestApi:
     # access_token = ""
-    pass
+
     # 测试get使用
-    # def test_get_token(self):
-    #     print("测试1")
-    #     url = "http://192.168.100.35:81/formmodel/formInfo/list"
-    #     dates = {
-    #         "t": int(time.time() * 1000),
-    #         "formName": "ZH-RE-TSD-000034"
-    #     }
-    #     headers = {
-    #         "token": "7b93dc6488284c7d4191dcd703acc952",
-    #         "Content-Type": "application/json"
-    #     }
-    #     res = SendRequest().all_send_request(method="get", url=url, params=dates, headers=headers)
-    #     # res = requests.get(url=url, params=dates, headers=headers)
-    #     print(res.json())
+    def test_get_token(self):
+        print("测试1")
+        url = "http://192.168.100.35:81/formmodel/formInfo/list"
+        dates = {
+            "t": int(time.time() * 1000),
+            "formName": "ZH-RE-TSD-000034"
+        }
+        headers = {
+            "token": "7b93dc6488284c7d4191dcd703acc952",
+            "Content-Type": "application/json"
+        }
+        res = SendRequest().all_send_request(method="get", url=url, params=dates, headers=headers)
+        # res = requests.get(url=url, params=dates, headers=headers)
+        print(res.json())
 
     # 登录，获取token
     # def test_post_token(self):
