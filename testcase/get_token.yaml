@@ -1,0 +1,22 @@
+-
+  token: 获取接口统一的授权码token
+  request:
+    method: post
+    url: http://192.168.100.35:81/security/sys/login
+    headers: none
+    json:
+      t: int(time.time() * 1000)
+      username: admin
+      password: zhre2021!@#$
+  validate: none
+-
+  token: 获取接口统一的授权码token
+  request:
+    method: post
+    url: http://192.168.100.35:81/security/sys/login
+    headers: none
+    json:
+      t: int(time.time() * 1000)
+      username: ZH0082
+      password: ZH0082
+  validate: none
