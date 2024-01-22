@@ -24,7 +24,7 @@ class TestApi:
     #     # res = requests.get(url=url, params=dates, headers=headers)
     #     print(res.json())
 
-    # 登录，获取token
+    # 登录，获取token  接口（系统登录）
     @pytest.mark.parametrize("caseinfo", read_test_yaml("/testcase/get_token.yaml"))
     def test_post_token(self, caseinfo):
         url = 'http://192.168.100.35:81/security/sys/login'
@@ -38,7 +38,7 @@ class TestApi:
         write_yaml({"token": result["token"]})
         print(result)
 
-    # 使用token，给自己获得权限
+    # 使用token，给自己获得权限  接口（工作量统计列表查询）
     def test_edit_flag(self):
         url = "http://192.168.100.35:81/logistics/order/job/statistics/list"
         json = {"t": int(time.time() * 1000), "page": 1, "limit": 10, "wheelsetCode": "ZQ GBD 00002", "carGroup": "",
