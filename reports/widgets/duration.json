@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1f0ccee116fad3c5",
+  "name" : "test_post_token[caseinfo1]",
+  "time" : {
+    "start" : 1706000355389,
+    "stop" : 1706000355454,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4a6db11b0991d22",
+  "name" : "test_post_token[caseinfo0]",
+  "time" : {
+    "start" : 1706000355141,
+    "stop" : 1706000355384,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbb0221fc9a1f71e",
+  "name" : "test_edit_flag",
+  "time" : {
+    "start" : 1706000355457,
+    "stop" : 1706000355618,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

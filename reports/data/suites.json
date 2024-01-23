@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_api",
+      "children" : [ {
+        "name" : "TestApi",
+        "children" : [ {
+          "name" : "test_post_token[caseinfo0]",
+          "uid" : "d4a6db11b0991d22",
+          "parentUid" : "56ad7f2451dd67ecfe8bf570f2092bf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706000355141,
+            "stop" : 1706000355384,
+            "duration" : 243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'token': '获取接口统一的授权码token', 'request': {'method': 'post', 'url': 'http://192.168.100.35:81/security/sys/login', 'headers': 'none', 'json': {'t': 'int(time.time() * 1000)', 'username': 'admin', 'password': 'zhre2021!@#$'}}, 'validate': 'none'}" ]
+        }, {
+          "name" : "test_post_token[caseinfo1]",
+          "uid" : "1f0ccee116fad3c5",
+          "parentUid" : "56ad7f2451dd67ecfe8bf570f2092bf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706000355389,
+            "stop" : 1706000355454,
+            "duration" : 65
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'token': '获取接口统一的授权码token', 'request': {'method': 'post', 'url': 'http://192.168.100.35:81/security/sys/login', 'headers': 'none', 'json': {'t': 'int(time.time() * 1000)', 'username': 'ZH0082', 'password': 'ZH0082'}}, 'validate': 'none'}" ]
+        }, {
+          "name" : "test_edit_flag",
+          "uid" : "fbb0221fc9a1f71e",
+          "parentUid" : "56ad7f2451dd67ecfe8bf570f2092bf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1706000355457,
+            "stop" : 1706000355618,
+            "duration" : 161
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "56ad7f2451dd67ecfe8bf570f2092bf2"
+      } ],
+      "uid" : "1ba035f71e562d62e23101f65e594a11"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-Q178SDH",
+    "children" : [ {
+      "name" : "23564-MainThread",
+      "children" : [ {
+        "name" : "test_post_token[caseinfo1]",
+        "uid" : "1f0ccee116fad3c5",
+        "parentUid" : "65c786f3c728dc67b0be9553c45bf5d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000355389,
+          "stop" : 1706000355454,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'token': '获取接口统一的授权码token', 'request': {'method': 'post', 'url': 'http://192.168.100.35:81/security/sys/login', 'headers': 'none', 'json': {'t': 'int(time.time() * 1000)', 'username': 'ZH0082', 'password': 'ZH0082'}}, 'validate': 'none'}" ]
+      }, {
+        "name" : "test_post_token[caseinfo0]",
+        "uid" : "d4a6db11b0991d22",
+        "parentUid" : "65c786f3c728dc67b0be9553c45bf5d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000355141,
+          "stop" : 1706000355384,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'token': '获取接口统一的授权码token', 'request': {'method': 'post', 'url': 'http://192.168.100.35:81/security/sys/login', 'headers': 'none', 'json': {'t': 'int(time.time() * 1000)', 'username': 'admin', 'password': 'zhre2021!@#$'}}, 'validate': 'none'}" ]
+      }, {
+        "name" : "test_edit_flag",
+        "uid" : "fbb0221fc9a1f71e",
+        "parentUid" : "65c786f3c728dc67b0be9553c45bf5d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706000355457,
+          "stop" : 1706000355618,
+          "duration" : 161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65c786f3c728dc67b0be9553c45bf5d8"
+    } ],
+    "uid" : "d3a1ddefec18cd6484f104b8d99e0c9a"
+  } ]
+}
